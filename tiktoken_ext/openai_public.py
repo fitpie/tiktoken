@@ -62,7 +62,7 @@ def p50k_edit():
 
 def cl100k_base():
     mergeable_ranks = load_tiktoken_bpe(
-        "https://openaipublic.blob.core.windows.net/encodings/cl100k_base.tiktoken"
+        "/cl100k_base.tiktoken"
     )
     special_tokens = {
         ENDOFTEXT: 100257,
